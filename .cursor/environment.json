@@ -1,0 +1,14 @@
+{
+  "name": "test-repo",
+  "install": "npm ci",
+  "terminals": [
+    {
+      "name": "server",
+      "command": "npm run dev:server"
+    },
+    {
+      "name": "client",
+      "command": "npm run dev:client"
+    }
+  ]
+}
